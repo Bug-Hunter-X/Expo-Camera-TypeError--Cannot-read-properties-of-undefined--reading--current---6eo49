@@ -1,0 +1,1 @@
+This error occurs when using the Expo Camera API and attempting to access the camera's preview before it has fully initialized.  The `cameraRef` might be null or undefined, leading to a TypeError or similar error.  This is often seen when trying to manipulate the camera properties or start recording too quickly after mounting the component.
